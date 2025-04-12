@@ -35,7 +35,7 @@ const Projects = (): React.ReactNode => {
   return (
    
       <div className="projects-container">
-        <div className="projects-title">
+        <div className="projects-h2">
           <h2>Projects</h2>
         </div>
 
