@@ -1,16 +1,17 @@
 .experience-container {
   display: flex;
   gap: 3rem;
-  align-items: center;
-  padding: 40px;
-  margin-left: 20rem;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 3rem auto 0 auto;
+  padding: 0 1rem;
 }
 
 .section-title {
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: #1a1a1a;
-  white-space: nowrap;
+  font-weight: bold;
+  min-width: 100px;
+  text-align: left;
 }
 
 .experience-card {
@@ -70,7 +71,7 @@
   color: #333;
 }
 
-/* Dark mode overrides */
+/* Dark mode */
 body.dark .experience-card {
   background-color: #1e1e1e;
   color: #f5f5f5;
