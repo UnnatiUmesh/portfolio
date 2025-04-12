@@ -1,26 +1,25 @@
 .about-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: flex-start;
-  gap: 3rem;
-  padding: 3rem 2rem;
+  justify-content: center;
   max-width: 1000px;
-  margin: 0 auto;
-  margin-left:25rem;
+  margin: 3rem auto 0 auto;
+  padding: 0 1rem;
+  gap: 10rem;
 }
 
 .about-label {
-  font-size: 1.25rem;
-  font-weight: 500;
-  white-space: nowrap;
+  font-weight: bold;
+  min-width: 100px;
+  text-align: left;
 }
-
 
 .about-text {
   flex: 1;
   font-size: 1.1rem;
   line-height: 1.8;
+  text-align: left;
 }
 
 .about-text p {
