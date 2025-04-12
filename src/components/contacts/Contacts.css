@@ -1,16 +1,17 @@
 .contact-container {
   display: flex;
-  gap: 2rem;
-  padding: 2rem;
+  gap: 8rem;
+  align-items: flex-start;
   justify-content: center;
-  margin-left: 15rem;
+  max-width: 1000px;
+  margin: 3rem auto 0 auto;
+  padding: 0 1rem;
 }
 
 .contact-label {
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: #1a1a1a;
-  white-space: nowrap;
+  font-weight: bold;
+  min-width: 100px;
+  text-align: left;
 }
 
 .contact-card {
