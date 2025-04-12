@@ -1,11 +1,11 @@
 .projects-container {
-    display: flex;
-    gap: 3rem;
-    padding: 3rem;
-    margin-left:25rem;
-      
+  display: flex;
+  gap: 8rem;
+  align-items: flex-start;
   justify-content: center;
-  margin-left:18rem
+  max-width: 1000px;
+  margin: 3rem auto 0 auto;
+  padding: 0 1rem;
   }
   
   .projects-heading {
@@ -20,6 +20,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem; /* Increased spacing between cards */
+/*     margin-left:8rem; */
   }
   .projects-grid a{
     text-decoration: none;
@@ -32,8 +33,8 @@
   
   .project-card {
     background: #f2f2f2;
-    width:20rem;
-    height: 10rem;
+/*     width:20rem;
+    height: 10rem; */
     border-radius: 20px;
     padding: 2rem;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
@@ -70,5 +71,10 @@
     color: #333;
     font-size: 1.2rem;
     line-height: 1.6;
+  }
+  .projects-h2{
+    font-weight: bold;
+    min-width: 100px;
+    text-align: left;
   }
   
